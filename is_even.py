@@ -4,14 +4,17 @@ a = int(input())
 
 #Создание функции
 def check(a):
-    return 
+    if a % 2 == 0:
+        result = "четное"
+    else:
+        result = "нечетное"
+    
+    
+    return result
 # Создание цикла, формулирующий условия определения
-if a % 2 == 0:
-    result = "четное"
 
-def check(a):
-    return
-if a % 2 > 0 or a % 2 < 0:
-    result = "нечетное"
+
+result = check(a)
+
 # Вывод полученных значений
 print ("Введенное число", result)
