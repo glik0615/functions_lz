@@ -13,7 +13,7 @@ print(my_list)
 for i in range (0,len(my_list)):
     number = int(my_list[i])
 
-    # Закидываем элементы преобразованного типа с новый списокт(выводим его)
+    # Закидываем элементы преобразованного типа с новый список( после выводим его)
     first_list.append(number)
 print(first_list)
 
